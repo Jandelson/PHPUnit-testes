@@ -1,0 +1,23 @@
+{
+    "name": "jandelson/loja",
+    "description": "teste com php unit projeto loja",
+    "authors": [
+        {
+            "name": "Jandelson Oliveira",
+            "email": "jandelson_oliveira@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit" : "^6"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "App\\" : "src"
+        }
+    },
+    "autoload-dev" : {
+        "psr-4" : {
+            "Tests\\" : "tests"
+        }
+    }
+}
